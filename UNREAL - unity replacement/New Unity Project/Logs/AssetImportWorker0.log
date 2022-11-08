@@ -413,3 +413,15 @@ Received Import Request.
   path: ProjectSettings/TagManager.asset
   artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49103ddb131dee35ba8759c97ba2dd04') in 0.100633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1251.373020 seconds.
+  path: Assets/Textures/UI/Caught.png
+  artifactKey: Guid(85d46c7add1129741a0d78fadba6998e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/Caught.png using Guid(85d46c7add1129741a0d78fadba6998e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b91f7ef876dc8b16b095411afc5ab4') in 0.751372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Textures/UI/Won.png
+  artifactKey: Guid(623a7345ca6d38f4280b86c32ffe7c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UI/Won.png using Guid(623a7345ca6d38f4280b86c32ffe7c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416e9540a3d0df3213368fcd55472c81') in 0.202432 seconds 

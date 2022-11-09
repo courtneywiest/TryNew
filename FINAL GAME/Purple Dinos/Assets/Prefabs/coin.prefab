@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 8240208541608059608}
   - component: {fileID: 8240208541608059615}
   - component: {fileID: 8240208541608059614}
-  - component: {fileID: 8240208541608059613}
   - component: {fileID: 8240208541608059611}
   m_Layer: 0
   m_Name: coin
@@ -149,19 +148,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsWorth: 1
---- !u!114 &8240208541608059613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8240208541608059612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9c4adaf25c56477b836b81ad48e3bdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pointsWorth: 1

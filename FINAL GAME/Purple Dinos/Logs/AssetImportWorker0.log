@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/courtneywiest/Desktop/Game-Design-MART-460/FINAL GAME/Purple Dinos
+/Users/courtneywiest/Desktop/Game-Design-MART-460/TryNew/FINAL GAME/Purple Dinos
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56055
-Successfully changed project path to: /Users/courtneywiest/Desktop/Game-Design-MART-460/FINAL GAME/Purple Dinos
-/Users/courtneywiest/Desktop/Game-Design-MART-460/FINAL GAME/Purple Dinos
+59453
+Successfully changed project path to: /Users/courtneywiest/Desktop/Game-Design-MART-460/TryNew/FINAL GAME/Purple Dinos
+/Users/courtneywiest/Desktop/Game-Design-MART-460/TryNew/FINAL GAME/Purple Dinos
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/courtneywiest/Desktop/Game-Design-M
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 96.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 123.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/courtneywiest/Desktop/Game-Design-MART-460/FINAL GAME/Purple Dinos/Assets
+[Subsystems] Discovering subsystems at path /Users/courtneywiest/Desktop/Game-Design-MART-460/TryNew/FINAL GAME/Purple Dinos/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 (high power)
 Metal devices available: 1
@@ -69,75 +69,75 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56663
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56545
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001381 seconds.
+Registered in 0.003721 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 89.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.391 seconds
+- Completed reload, in  0.402 seconds
 Domain Reload Profiling:
-	ReloadAssembly (391ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (402ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (273ms)
+		EndReloadAssembly (280ms)
 			LoadAssemblies (60ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (57ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (64ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
+			RebuildScriptCaches (15ms)
 			SetupLoadedEditorAssemblies (175ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
+				RefreshPlugins (87ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (62ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011782 seconds.
+Registered in 0.003863 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/courtneywiest/Desktop/Game-Design-MART-460/FINAL GAME/Purple Dinos/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/courtneywiest/Desktop/Game-Design-MART-460/FINAL GAME/Purple Dinos/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/courtneywiest/Desktop/Game-Design-MART-460/TryNew/FINAL GAME/Purple Dinos/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/courtneywiest/Desktop/Game-Design-MART-460/TryNew/FINAL GAME/Purple Dinos/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 89.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Can't find custom attr constructor image: /Users/courtneywiest/Desktop/Game-Design-MART-460/FINAL GAME/Purple Dinos/Library/PackageCache/com.unity.ads@3.4.4/Editor/UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+Can't find custom attr constructor image: /Users/courtneywiest/Desktop/Game-Design-MART-460/TryNew/FINAL GAME/Purple Dinos/Library/PackageCache/com.unity.ads@3.4.4/Editor/UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
 Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
+- Completed reload, in  0.729 seconds
 Domain Reload Profiling:
-	ReloadAssembly (688ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (729ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (10ms)
-		EndReloadAssembly (577ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (9ms)
+		EndReloadAssembly (619ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (304ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (322ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (1ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (123ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (136ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
@@ -147,13 +147,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4474 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 65 unused Assets / (67.0 KB). Loaded Objects now: 4908.
 Memory consumption went from 139.4 MB to 139.3 MB.
-Total: 2.566458 ms (FindLiveObjects: 0.155833 ms CreateObjectMapping: 0.061041 ms MarkObjects: 2.269833 ms  DeleteObjects: 0.078875 ms)
+Total: 2.651500 ms (FindLiveObjects: 0.150042 ms CreateObjectMapping: 0.059625 ms MarkObjects: 2.174458 ms  DeleteObjects: 0.266708 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,13 +167,143 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 34205.807451 seconds.
-  path: Assets/Parallax-2D-Backgrounds/platformer_background_2/Untitled-2-03.png
-  artifactKey: Guid(7780e1d2a808e44aca583b569ff4a33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Parallax-2D-Backgrounds/platformer_background_2/Untitled-2-03.png using Guid(7780e1d2a808e44aca583b569ff4a33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14ae1b194d7c53c326169b789877fc0') in 0.485614 seconds 
+  Time since last request: 47400.617864 seconds.
+  path: Assets/Prefabs/DinoSprite_0 (3).prefab
+  artifactKey: Guid(e3803cca645bb41a3ba832f67704603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DinoSprite_0 (3).prefab using Guid(e3803cca645bb41a3ba832f67704603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa4b40a8981d1d5df25cd590e9d52d8') in 0.461012 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Parallax-2D-Backgrounds/platformer_background_2/Untitled-2-02.png
-  artifactKey: Guid(ac46141f0043e4fc1a812cbcf90b3fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Parallax-2D-Backgrounds/platformer_background_2/Untitled-2-02.png using Guid(ac46141f0043e4fc1a812cbcf90b3fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de0161495f5ed655073a0f99b5d3860') in 0.021624 seconds 
+  Time since last request: 297.510164 seconds.
+  path: Assets/Prefabs/DinoSprite_0 (3).prefab
+  artifactKey: Guid(e3803cca645bb41a3ba832f67704603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DinoSprite_0 (3).prefab using Guid(e3803cca645bb41a3ba832f67704603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5baa3ae3441cc65900690afecd57bbe') in 0.004765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.882354 seconds.
+  path: Assets/Prefabs/DinoSprite_0 (3).prefab
+  artifactKey: Guid(e3803cca645bb41a3ba832f67704603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DinoSprite_0 (3).prefab using Guid(e3803cca645bb41a3ba832f67704603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8142ef996291b1af2dfb718547357d') in 0.002857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.887904 seconds.
+  path: Assets/Prefabs/DinoSprite_0 (3).prefab
+  artifactKey: Guid(e3803cca645bb41a3ba832f67704603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DinoSprite_0 (3).prefab using Guid(e3803cca645bb41a3ba832f67704603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc80a44d9a678f7202c2864219e1efc7') in 0.001297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.460525 seconds.
+  path: Assets/Prefabs/coin.prefab
+  artifactKey: Guid(bd885cfe878f94cb29048a459c4fbcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/coin.prefab using Guid(bd885cfe878f94cb29048a459c4fbcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc3e3d251c5ad8e1998a9dab444b14c') in 0.002345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 552.719390 seconds.
+  path: Assets/Prefabs/Run (1).prefab
+  artifactKey: Guid(b4eed3b2f263f43e78eaddda387581ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Run (1).prefab using Guid(b4eed3b2f263f43e78eaddda387581ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f4c87beddf12436ea7beeba9c3d699') in 0.017909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.225216 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
+  artifactKey: Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png using Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a4a048ac59a8cbae31eb14308db9cb') in 0.640727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.781892 seconds.
+  path: Assets/Parallax-2D-Backgrounds/platformer_background_2
+  artifactKey: Guid(c1cc1e8a5816e436cb82c44970fd47fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parallax-2D-Backgrounds/platformer_background_2 using Guid(c1cc1e8a5816e436cb82c44970fd47fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10df70212da46a8fcfb20b23373a53d2') in 0.000629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1697.806173 seconds.
+  path: Assets/Parallax-2D-Backgrounds/platformer_background_2/platformer_background_2.png
+  artifactKey: Guid(7e0cfa574212d42bb990b5dbe1801c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parallax-2D-Backgrounds/platformer_background_2/platformer_background_2.png using Guid(7e0cfa574212d42bb990b5dbe1801c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9394d7f75f6ef7727ac3e51ca90491') in 0.164244 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003582 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17274b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/courtneywiest/Desktop/Game-Design-MART-460/TryNew/FINAL GAME/Purple Dinos/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/courtneywiest/Desktop/Game-Design-MART-460/TryNew/FINAL GAME/Purple Dinos/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: /Users/courtneywiest/Desktop/Game-Design-MART-460/TryNew/FINAL GAME/Purple Dinos/Library/PackageCache/com.unity.ads@3.4.4/Editor/UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+Mono: successfully reloaded assembly
+- Completed reload, in  0.614 seconds
+Domain Reload Profiling:
+	ReloadAssembly (615ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (442ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (184ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4463 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (46.8 KB). Loaded Objects now: 4921.
+Memory consumption went from 302.9 MB to 302.8 MB.
+Total: 3.301958 ms (FindLiveObjects: 0.259625 ms CreateObjectMapping: 0.097583 ms MarkObjects: 2.853292 ms  DeleteObjects: 0.090500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 843.722801 seconds.
+  path: Assets/Parallax-2D-Backgrounds/platformer_background_2/platformer_background_2.png
+  artifactKey: Guid(7e0cfa574212d42bb990b5dbe1801c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parallax-2D-Backgrounds/platformer_background_2/platformer_background_2.png using Guid(7e0cfa574212d42bb990b5dbe1801c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beef63fe04f017adb0b4313af9b4e48e') in 0.195939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 197.339649 seconds.
+  path: Assets/Parallax-2D-Backgrounds/platformer_background_2/platformer_background_2.png
+  artifactKey: Guid(7e0cfa574212d42bb990b5dbe1801c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parallax-2D-Backgrounds/platformer_background_2/platformer_background_2.png using Guid(7e0cfa574212d42bb990b5dbe1801c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deef78970ab6ab3328e4c7a426a03181') in 0.109083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 228.828453 seconds.
+  path: Assets/Parallax-2D-Backgrounds/platformer_background_2/Untitled-2-03.asset
+  artifactKey: Guid(f6bde4dbbe0e540d8b4d3177bd9ee3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parallax-2D-Backgrounds/platformer_background_2/Untitled-2-03.asset using Guid(f6bde4dbbe0e540d8b4d3177bd9ee3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e387efed484e499d45bc9c39666e17f') in 0.156430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 423.235413 seconds.
+  path: Assets/Parallax-2D-Backgrounds/platformer_background_2/Untitled-2-02.asset
+  artifactKey: Guid(6e08f9efb73c44d4581100afde062d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parallax-2D-Backgrounds/platformer_background_2/Untitled-2-02.asset using Guid(6e08f9efb73c44d4581100afde062d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffb3dd4cc8d3aa28f401e8cc358e05a') in 0.038058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.224918 seconds.
+  path: Assets/Parallax-2D-Backgrounds/platformer_background_2/Untitled-2-01.asset
+  artifactKey: Guid(fc8c11cbe760f4e7f80ff53ffeed419d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parallax-2D-Backgrounds/platformer_background_2/Untitled-2-01.asset using Guid(fc8c11cbe760f4e7f80ff53ffeed419d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6d29c9ddaab4085041a73a840ff2e3') in 0.024163 seconds 

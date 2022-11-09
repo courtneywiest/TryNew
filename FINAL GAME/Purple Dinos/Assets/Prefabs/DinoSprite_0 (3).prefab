@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 6014059625012048008}
   - component: {fileID: 6014059625012048007}
   - component: {fileID: 6014059625012048006}
-  - component: {fileID: -8441019480797814165}
+  - component: {fileID: -3758953078506121735}
+  - component: {fileID: 6440095615552752122}
   m_Layer: 0
   m_Name: DinoSprite_0 (3)
   m_TagString: Untagged
@@ -200,7 +201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whichDirection: 1
   speed: 1
---- !u!114 &-8441019480797814165
+--- !u!114 &-3758953078506121735
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -209,7 +210,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 6014059625012048005}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9c4adaf25c56477b836b81ad48e3bdb, type: 3}
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  destroyWhenActivated: 0
+  healthChange: -1
+--- !u!114 &6440095615552752122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6014059625012048005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb970c45b40bb4652a8310660a03dfb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1

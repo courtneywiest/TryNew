@@ -12,8 +12,12 @@ public class UIScript : MonoBehaviour
 	public GameType gameType = GameType.Score;
 
 	// If the scoreToWin is -1, the game becomes endless (no win conditions, but you could do game over)
-	public int scoreToWin = 5;
+	public int scoreToWin = 1;
 
+	public int addHealth = 1;
+
+
+	
 
 	[Header("References (don't touch)")]
 	//Right is used for the score in P1 games
@@ -66,6 +70,7 @@ public class UIScript : MonoBehaviour
 	}
 
 
+
 	public void AddPoints(int playerNumber, int amount = 1)
 	{
 		scores[playerNumber] += amount;
@@ -82,7 +87,13 @@ public class UIScript : MonoBehaviour
 		if(gameType == GameType.Score
 			&& scores[playerNumber] >= scoreToWin)
 		{
-			GameWon(playerNumber);
+			Debug.Log("gamewin");
+			ResetCoins();
+			SetHealth(playersHealth[playerNumber] + 1, playerNumber);
+		
+			
+			//playersHealth[playerNumber] --;
+			//GameWon(playerNumber);
 		}
 	}
 
@@ -102,18 +113,37 @@ public class UIScript : MonoBehaviour
 	}
 
 
+  
 
-	public void GameWon(int playerNumber)
+
+
+
+
+
+
+
+	public void ResetCoins()
 	{
-		// only set game over UI if game is not over
-	    if (!gameOver)
-	    {
-			gameOver = true;
-			winLabel.text = "Player " + ++playerNumber + " wins!";
-			statsPanel.SetActive(false);
-			winPanel.SetActive(true);
-		}
+		numberLabels[1].text = "0";
+				scores[0] = scores[1] = 0;
 	}
+
+
+
+
+//COLLECT COINS TO "WIN" - ADD TO HEALTH INSTEAD AND RESET 
+	
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -142,13 +172,40 @@ public class UIScript : MonoBehaviour
 	{
 		SetHealth(playersHealth[playerNumber] + change, playerNumber);
 
-		if(gameType != GameType.Endless
-			&& playersHealth[playerNumber] <= 0)
-		{
-			GameOver(playerNumber);
-		}
-
 	}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

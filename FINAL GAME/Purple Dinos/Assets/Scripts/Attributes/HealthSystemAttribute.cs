@@ -63,11 +63,20 @@ public class HealthSystemAttribute : MonoBehaviour
 		{
 			ui.ChangeHealth(amount, playerNumber);
 		}
+		
 
+		
+		
 		//DEAD
 		if(health <= 0)
 		{
 			Destroy(gameObject);
 		}
+	}
+
+
+	public void coinHealth(int amount)
+	{
+		health++;
 	}
 }

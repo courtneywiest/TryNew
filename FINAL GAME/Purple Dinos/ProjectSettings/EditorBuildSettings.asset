@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Examples/Maze/MazeLevel0.unity
     guid: 029e597475c3944a5b42678232c2822b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Examples/Maze/MazeLevel1.unity
     guid: f9b71d909be1c4e9dbb8b3599d76b33c
   - enabled: 0
@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Examples/Roguelike/Roguelike.unity
     guid: ad15a26015e49439387b05c22fe7a962
+  - enabled: 1
+    path: Assets/Level 3.unity
+    guid: a2adf61ff44f7491c95920b2e3ff7a58
+  - enabled: 1
+    path: Assets/Level 2.unity
+    guid: 4667190730ec647fdacf31dd96f57e76
+  - enabled: 1
+    path: Assets/MainScene.unity
+    guid: a26b5b84e04ba499fa71d3cd1d24e6c3
   m_configObjects: {}

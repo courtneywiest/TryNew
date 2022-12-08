@@ -32,13 +32,15 @@ public class ConsumeResourceAction : Action
 			{
 				//consume the resource and update the UI
 				userInterface.ConsumeResource(checkFor, amountNeeded);
+				//Debug.Log("hasenoughtttt");
 			}
 
 			return hasEnoughResource;
 		}
 		else
 		{
-			Debug.LogWarning("User Interface prefab has not been found in the scene. The action can't execute!");
+
+			//Debug.Log("can't execute!");
 			return false;
 		}
 	}

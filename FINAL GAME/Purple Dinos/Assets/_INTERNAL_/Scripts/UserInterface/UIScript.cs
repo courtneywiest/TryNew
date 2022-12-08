@@ -17,7 +17,6 @@ public class UIScript : MonoBehaviour
 	public int addHealth = 1;
 
 
-	
 
 	[Header("References (don't touch)")]
 	//Right is used for the score in P1 games
@@ -32,7 +31,7 @@ public class UIScript : MonoBehaviour
 	// Internal variables to keep track of score, health, and resources, win state
 	private int[] scores = new int[2];
 	private int[] playersHealth = new int[2];
-	private Dictionary<int, ResourceStruct> resourcesDict = new Dictionary<int, ResourceStruct>(); //holds a reference to all the resources collected, and to their UI
+	public Dictionary<int, ResourceStruct> resourcesDict = new Dictionary<int, ResourceStruct>(); //holds a reference to all the resources collected, and to their UI
     private bool gameOver = false; //this gets changed when the game is won OR lost
 
 
@@ -205,10 +204,6 @@ public class UIScript : MonoBehaviour
 
 
 
-
-
-
-
 	//Adds a resource to the dictionary, and to the UI
 	public void AddResource(int resourceType, int pickedUpAmount, Sprite graphics)
 	{
@@ -218,7 +213,9 @@ public class UIScript : MonoBehaviour
 			int newAmount = resourcesDict[resourceType].amount + pickedUpAmount;
 			resourcesDict[resourceType].UIItem.ShowNumber(newAmount);
 			resourcesDict[resourceType].amount = newAmount;
-		}
+		} 
+
+
 		else
 		{
 			//create the UIItemScript and display the icon
@@ -233,27 +230,70 @@ public class UIScript : MonoBehaviour
 	}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	public int amountNeeded = 1;
+
+
+	public KeyCode keyToPress = KeyCode.Tab;
+
+
 	//checks if a certain resource is in the inventory, in the needed quantity
 	public bool CheckIfHasResources(int resourceType, int amountNeeded = 1)
-	{
+	{  
+		
 		if(resourcesDict.ContainsKey(resourceType))
 		{
-			if(resourcesDict[resourceType].amount >= amountNeeded)
+			if(Input.GetKeyDown(keyToPress) && resourcesDict[resourceType].amount >= amountNeeded)
 			{
+				
+				//ExecuteAllActions(null);
+				//Debug.Log("gotemmmmmmmmmmmmmm");
 				return true;
+				
 			}
 			else
 			{
+				//ExecuteAllActions(null);
 				//not enough
+				//Debug.Log("notenought");
 				return false;
+				
+				
 			}
 		}
-		else
+		
 		{
 			//resource not present
+		
 			return false;
 		}
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	//to use only before checking that the resource is in the dictionary
@@ -277,6 +317,17 @@ public class UIScript : MonoBehaviour
 		Endless
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

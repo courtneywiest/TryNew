@@ -12,10 +12,11 @@ public class ConditionKeyPress : ConditionBase
 	public KeyEventTypes eventType = KeyEventTypes.JustPressed;
 
 	public float frequency = 0.5f;
+	
 
 	private float timeLastEventFired;
 
-
+	private UIScript userInterface;
 	
 
 
@@ -23,10 +24,11 @@ public class ConditionKeyPress : ConditionBase
 	{
 		
 		timeLastEventFired = -frequency;
+		userInterface = GameObject.FindObjectOfType<UIScript>();
 	}
 
 
-
+	
 
 	private void Update()
 	{
@@ -35,7 +37,15 @@ public class ConditionKeyPress : ConditionBase
 			case KeyEventTypes.JustPressed:
 				if(Input.GetKeyDown(keyToPress))
 				{
+					if (userInterface.CheckIfHasResources(0,1))
+					{
 					ExecuteAllActions(null);
+					Debug.Log("yeah?");
+					}
+					else 
+					{
+						//userInterface.Abort();
+					}
 				}
 				break;
 			case KeyEventTypes.Released:

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7671000153619172696}
   - component: {fileID: 8153844481955570237}
   - component: {fileID: -8757813171009237565}
-  - component: {fileID: 5658314013583994522}
+  - component: {fileID: 6339459463139605068}
   - component: {fileID: 73416326777118048}
   - component: {fileID: 4958854819275575556}
   - component: {fileID: -1594285911076528241}
@@ -176,8 +176,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 5658314013583994522}
-  useCustomActions: 1
+  - {fileID: 6339459463139605068}
+  useCustomActions: 0
   customActions:
     m_PersistentCalls:
       m_Calls:
@@ -195,8 +195,8 @@ MonoBehaviour:
         m_CallState: 2
   happenOnlyOnce: 0
   filterByTag: 0
-  filterTag: Untagged
---- !u!114 &5658314013583994522
+  filterTag: Enemy
+--- !u!114 &6339459463139605068
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -38,7 +38,7 @@ public class ResourceAttribute : MonoBehaviour
 			}
 			else
 			{
-				Debug.LogWarning("User Interface is not in the scene, so the resource cannot be displayed and put in the inventory.");
+				//Debug.LogWarning("User Interface is not in the scene, so the resource cannot be displayed and put in the inventory.");
 			}
 
 			Destroy(gameObject);

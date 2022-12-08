@@ -8,10 +8,21 @@ public class CreateObjectAction : Action
 	public GameObject prefabToCreate;
 	public Vector2 newPosition;
 	public bool relativeToThisObject;
+
+	public int resourceIndex = 0;
+	private UIScript userInterface;
+	public int amount = -1;
+
+	private void Start()
+	{
+		// Find the UI in the scene and store a reference for later use
+		userInterface = GameObject.FindObjectOfType<UIScript>();
+	}
 		
 	// Creates a new GameObject
 	public override bool ExecuteAction(GameObject dataObject)
 	{
+	
 		if(prefabToCreate != null)
 		{
 			//create the new object by copying the prefab

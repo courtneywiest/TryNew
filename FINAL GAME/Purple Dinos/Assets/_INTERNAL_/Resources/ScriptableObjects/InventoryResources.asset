@@ -13,9 +13,4 @@ MonoBehaviour:
   m_Name: InventoryResources
   m_EditorClassIdentifier: 
   resourcesTypes:
-  - Coin
-  - Key
-  - Gold
-  - Wood
-  - Star
   - Meteor

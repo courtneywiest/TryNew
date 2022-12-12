@@ -13,10 +13,17 @@ public class CreateObjectAction : Action
 	private UIScript userInterface;
 	public int amount = -1;
 
+
+	
+
+
+	
+
 	private void Start()
 	{
 		// Find the UI in the scene and store a reference for later use
 		userInterface = GameObject.FindObjectOfType<UIScript>();
+		//source = GetComponent<AudioSource>();
 	}
 		
 	// Creates a new GameObject
@@ -29,6 +36,8 @@ public class CreateObjectAction : Action
 			GameObject newObject = Instantiate<GameObject>(prefabToCreate);
 			newObject.GetComponent<Rigidbody2D>().AddForce(transform.right * 420);
 
+			//source.Play();
+
 			//is the position relative or absolute?
 			Vector2 finalPosition = newPosition;
 			if (relativeToThisObject)
@@ -38,7 +47,14 @@ public class CreateObjectAction : Action
 
 			//let's place it in the desired position!
 			newObject.transform.position = finalPosition;
+			
+
+			
+
 			return true;
+
+			
+			
 		}
 		else
 		{

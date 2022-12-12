@@ -238,11 +238,14 @@ public class UIScript : MonoBehaviour
 
 
 
+	//[SerializeField] private AudioSource myAudioSource; 
+   // [SerializeField] private AudioClip myAudioClip1;
+	//[SerializeField] private AudioClip myAudioClip4;
 
 
 
 
-
+	
 
 	public int amountNeeded = 1;
 
@@ -258,9 +261,10 @@ public class UIScript : MonoBehaviour
 		{
 			if(Input.GetKeyDown(keyToPress) && resourcesDict[resourceType].amount >= amountNeeded)
 			{
+				//myAudioSource.PlayOneShot(myAudioClip4);
 				
 				//ExecuteAllActions(null);
-				//Debug.Log("gotemmmmmmmmmmmmmm");
+				Debug.Log("gotemmmmmmmmmmmmmm");
 				return true;
 				
 			}
@@ -269,7 +273,10 @@ public class UIScript : MonoBehaviour
 				//ExecuteAllActions(null);
 				//not enough
 				//Debug.Log("notenought");
+				//myAudioSource.PlayOneShot(myAudioClip2);
 				return false;
+
+			
 				
 				
 			}

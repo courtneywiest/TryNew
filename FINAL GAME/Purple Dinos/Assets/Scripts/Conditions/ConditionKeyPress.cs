@@ -17,7 +17,7 @@ public class ConditionKeyPress : ConditionBase
 	private float timeLastEventFired;
 
 	private UIScript userInterface;
-	
+	//private AudioSource source;
 
 
 	private void Start()
@@ -25,6 +25,7 @@ public class ConditionKeyPress : ConditionBase
 		
 		timeLastEventFired = -frequency;
 		userInterface = GameObject.FindObjectOfType<UIScript>();
+		//source = GetComponent<AudioSource>();
 	}
 
 
@@ -39,6 +40,7 @@ public class ConditionKeyPress : ConditionBase
 				{
 					if (userInterface.CheckIfHasResources(0,1))
 					{
+					//source.Play();
 					ExecuteAllActions(null);
 					Debug.Log("yeah?");
 					}

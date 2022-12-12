@@ -8,6 +8,10 @@ public class CollectableAttribute : MonoBehaviour
 	
 	private UIScript userInterface;
 
+	[SerializeField] private AudioSource myAudioSource; 
+	[SerializeField] private AudioClip myAudioClip2;
+	[SerializeField] private float volume = 1.0f;
+
 	private void Start()
 	{
 		// Find the UI in the scene and store a reference for later use
@@ -35,6 +39,8 @@ public class CollectableAttribute : MonoBehaviour
 				// add one point
 				int playerId = (playerTag == "Player") ? 0 : 1;
 				userInterface.AddPoints(playerId, pointsWorth);
+				
+				  myAudioSource.PlayOneShot(myAudioClip2, volume);
 			}
 
 			// then destroy this object

@@ -7,6 +7,10 @@ using UnityEngine.Events;
 public class ConditionCollision : ConditionBase
 {
 
+	[SerializeField] private AudioSource myAudioSource; 
+   // [SerializeField] private AudioClip myAudioClip4;
+   
+
 	//This will create a dialog window asking for which dialog to add
 	private void Reset()
 	{
@@ -18,9 +22,22 @@ public class ConditionCollision : ConditionBase
 	{
 		if(collision.collider.CompareTag(filterTag)
 			|| !filterByTag)
+
 		{
-			
 			ExecuteAllActions(collision.gameObject);
+			// myAudioSource.PlayOneShot(myAudioClip4);
+			
+			//StartCoroutine(Delayed());
 		}
-	}
+		
+
+	//IEnumerator Delayed()
+	//{
+	//	yield return new WaitForSeconds(2.0f);
+	//	ExecuteAllActions(collision.gameObject);
+	//}
+	//}
+
+	
+}
 }

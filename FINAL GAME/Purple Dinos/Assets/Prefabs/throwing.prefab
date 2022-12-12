@@ -193,9 +193,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  happenOnlyOnce: 0
+  happenOnlyOnce: 1
   filterByTag: 0
   filterTag: Enemy
+  myAudioSource: {fileID: 0}
 --- !u!114 &6339459463139605068
 MonoBehaviour:
   m_ObjectHideFlags: 0

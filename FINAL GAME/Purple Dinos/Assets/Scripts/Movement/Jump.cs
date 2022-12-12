@@ -22,15 +22,26 @@ public class Jump : Physics2DObject
 
 	private bool canJump = true;
 
+	//private AudioSource source;
+
+	private void Start()
+	{
+		//source = GetComponent<AudioSource>();
+	}
+
+
+
 	// Read the input from the player
 	void Update()
 	{
 		if(canJump
 			&& Input.GetKeyDown(key))
 		{
+			
 			// Apply an instantaneous upwards force
 			rigidbody2D.AddForce(Vector2.up * jumpStrength, ForceMode2D.Impulse);
 			canJump = !checkGround;
+			//source.Play();
 		}
 	}
 

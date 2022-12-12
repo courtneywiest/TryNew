@@ -10,6 +10,8 @@ public class ResourceAttribute : MonoBehaviour
 
 	private UIScript userInterface;
 
+	
+	
 
 	// Start is called at the beginning
 	private void Start()
@@ -32,6 +34,8 @@ public class ResourceAttribute : MonoBehaviour
 		if(otherCollider.CompareTag("Player")
 			|| otherCollider.CompareTag("Player2"))
 		{
+			Debug.Log("playerhit");
+		
 			if(userInterface != null)
 			{
 				userInterface.AddResource(resourceIndex, amount, GetComponent<SpriteRenderer>().sprite);
@@ -44,4 +48,7 @@ public class ResourceAttribute : MonoBehaviour
 			Destroy(gameObject);
 		}
 	}
+
+	 
+	
 }

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6014059625012048006}
   - component: {fileID: -3758953078506121735}
   - component: {fileID: 6440095615552752122}
+  - component: {fileID: 475202135264387119}
   m_Layer: 0
   m_Name: DinoSprite_0 (3)
   m_TagString: Enemy
@@ -228,3 +229,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+--- !u!114 &475202135264387119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6014059625012048005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d627da08bba54933bcf3ce882ed7553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAudioSource: {fileID: 0}
+  myAudioClip9: {fileID: 8300000, guid: 2abca2cb4b6914b6a85c106327796587, type: 3}
+  volume: 1

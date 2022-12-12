@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5761961351372296867}
   - component: {fileID: 5761961351372296870}
   - component: {fileID: 5761961351372296871}
+  - component: {fileID: 5518735104000317111}
   m_Layer: 0
   m_Name: meteor
   m_TagString: Bullet
@@ -159,3 +160,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resourceIndex: 5
   amount: 1
+--- !u!114 &5518735104000317111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5761961351372296865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e6c4c5afd3640469b35dd99f8d0718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAudioSource: {fileID: 0}
+  myAudioClip7: {fileID: 8300000, guid: fc7f4b9dbd57344eca6749a1c30037a3, type: 3}
+  volume: 0.1

@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 8069081189421204494}
   - component: {fileID: 8069081189421204493}
   - component: {fileID: 3331517468589957882}
+  - component: {fileID: 994334724270805849}
   m_Layer: 0
   m_Name: Run (1)
   m_TagString: Player
@@ -375,3 +376,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   checkFor: 0
   amountNeeded: 1
+--- !u!114 &994334724270805849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8069081189421204507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0050eca0c92344ef9a746954fd5ad7d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAudioSource: {fileID: 0}
+  myAudioClip2: {fileID: 8300000, guid: 9744dd9d534f14f368cf217b6f9cabd7, type: 3}
+  myAudioClip3: {fileID: 8300000, guid: 2a3b8af27639542d8bd2613dd323474b, type: 3}
+  myAudioClip4: {fileID: 8300000, guid: fc7f4b9dbd57344eca6749a1c30037a3, type: 3}
+  volume1: 0.2
+  volume2: 0.4
+  volume3: 1.5

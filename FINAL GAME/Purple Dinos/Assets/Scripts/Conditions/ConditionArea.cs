@@ -17,7 +17,8 @@ public class ConditionArea : ConditionBase
 	[Header("Type of Event")]
 	public ColliderEventTypes eventType = ColliderEventTypes.Enter;
 
-
+	[SerializeField] private AudioSource myAudioSource; 
+   	//[SerializeField] private AudioClip myAudioClip4;	
 
 	private float lastTimeTriggerStayCalled;
 
@@ -35,7 +36,8 @@ public class ConditionArea : ConditionBase
 		Utils.Collider2DDialogWindow(this.gameObject, true);
 	}
 	
-
+	
+	
 
 	//this function is called every time another collider enters this trigger
 	private void OnTriggerEnter2D(Collider2D otherCollider)
@@ -48,58 +50,29 @@ public class ConditionArea : ConditionBase
 			if(otherCollider.CompareTag(filterTag)
 				|| !filterByTag)
 			{
-				ExecuteAllActions(otherCollider.gameObject);
+				//myAudioSource.Play();
+				StartCoroutine(Delayed());
+				//ExecuteAllActions(otherCollider.gameObject);
 			}
-		}
-	}
-
-
-
-	// This will be called EVERY FRAME when something stays inside the trigger collider
-	void OnTriggerStay2D(Collider2D otherCollider)
-	{
-		//is this the type of event we need?
-		if(eventType == ColliderEventTypes.StayInside
-			&& Time.time >= lastTimeTriggerStayCalled + frequency) //check also the frequency
-		{
-			
-			//check for the tag of the object which entered the area, if necessary
-			if(otherCollider.CompareTag(filterTag)
-				|| !filterByTag)
+			IEnumerator Delayed()
 			{
-				ExecuteAllActions(otherCollider.gameObject);
-				lastTimeTriggerStayCalled = Time.time;
+				yield return new WaitForSeconds(2.5f);
+				ExecuteAllActions(gameObject);
 			}
 		}
 	}
 
 
 
-	//this function is called every time another collider exits this trigger
-	private void OnTriggerExit2D(Collider2D otherCollider)
-	{
-		//is this the type of event we need?
-		if(eventType == ColliderEventTypes.Exit)
-		{
-
-			//check for the tag of the object which entered the area, if necessary
-			if(otherCollider.CompareTag(filterTag)
-				|| !filterByTag)
-			{
-				ExecuteAllActions(otherCollider.gameObject);
-			}
-		}
-	}
+	
 
 
 
 	public enum ColliderEventTypes
 	{
 		Enter,
-		Exit,
-		StayInside
-	}
+	}}
 
 
 
-}
+

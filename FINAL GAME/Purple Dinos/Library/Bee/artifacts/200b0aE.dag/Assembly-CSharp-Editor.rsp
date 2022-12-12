@@ -407,6 +407,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/Audio Tools for Unity Playground/Scripts/Editor/audioToolsInstall.cs"
 "Assets/_INTERNAL_/Scripts/Editor/Attributes/BulletAttrInspector.cs"
 "Assets/_INTERNAL_/Scripts/Editor/Attributes/CollectableAttrInspector.cs"
 "Assets/_INTERNAL_/Scripts/Editor/Attributes/DestroyForPointsAttrInspector.cs"

@@ -23,8 +23,6 @@ public class Move : Physics2DObject
 	private float moveVertical;
 
 
-	
-	
 
 	// need a vairable - this is for us
 	private SpriteRenderer danger; 
@@ -83,6 +81,14 @@ public class Move : Physics2DObject
 		}
 
 		
+
+		
+
+
+
+
+
+
 	}
 
 	
